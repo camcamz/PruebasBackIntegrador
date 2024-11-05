@@ -1,0 +1,15 @@
+@api = http://localhost:3000
+
+GET {{api}}/notas
+
+###
+GET {{api}}/notasjoin   
+
+###
+POST {{api}}/notas
+Content-Type: application/json
+
+{
+    "titulo": "Ir a buscar a mi sobrina",
+    "completada": false
+}
